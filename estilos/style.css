@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(../img/fundo-login-cl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+    width: 300px;
+    height: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.596);
+
+    transform: translate(-50%, -50%);
+}
+
+main > #imagem {
+    display: block;
+    background: url(../img/form01.jpg);
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+
+    transition: width .5s, heigth .5s;
+    transition-timing-function: ease;
+    
+}
+
+
+.login > h1 {
+    font-size: 2em;
+    color: #383727;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.login > p {
+    font-size: 1em;
+    color: #383727;
+    margin: 15px;
+    text-align: justify;
+}
+
+.login > .campo {
+    background-color: #383727;
+    border: 2px solid #B3B07D;
+    border-radius: 20px;
+    display: block;
+    height: 35px;
+    width: 80%;
+    margin: 5px 0px 0px 10%;
+}
+
+.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.campo > input {
+    background-color: #DBD89A;
+    text-align: justify;
+    font-size: 1em;
+    margin-left: 10;
+    width: calc(80% - 20px);
+    height: 79%;
+    border-radius: 0px 20px 20px 0px;
+    transform: translatey(-14.5px);
+}
+
+.campo > label {
+    display: none;
+}
+
+.login > input[type=submit] {
+    display: block;
+    background-color: #383727;
+    border: 2px solid #B3B07D;
+    color: #DBD89A;
+    font-size: 1em;
+    font-weight: bold;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.login > input[type=submit]:hover {
+    background-color: #615F3E;
+    border: 2px solid #DBD89A;
+    color: #DBD89A;
+}
+
+.login > .botao {
+    display: block;
+    background-color: #DBD89A ;
+    border: 2px solid #383727;
+    color: #383727;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 73%;
+    height: 16px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: -12px;
+}
+
+.login > .botao:hover {
+    background-color: #615F3E;
+    border: 2px solid #DBD89A;
+    color: #DBD89A;
+}
+
+.login > .botao2 {
+    display: block;
+    background-color: #DBD89A ;
+    border: 2px solid #383727;
+    color: #383727;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 73%;
+    height: 16px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.login > .botao2:hover {
+    background-color: #615F3E;
+    border: 2px solid #DBD89A;
+    color: #DBD89A;
+}

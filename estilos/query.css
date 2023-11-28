@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: url(../img/fundo-login.jpg);
+    }
+
+    main {
+        width: 80vw;
+        height: 380px;
+    }
+
+    main> #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        
+    }
+
+    main > form > .login {
+        float: right;
+        width: 69%;
+        height: 100%;
+    }
+
+    
+
+    .campo > input {
+        background-color: #DBD89A;
+        text-align: justify;
+        font-size: 1em;
+        margin-left: 10;
+        width: calc(80%);
+        height: 79%;
+        border-radius: 0px 20px 20px 0px;
+        transform: translatey(-14.5px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: url(../img/fundo-login.jpg);
+    }
+
+    main {
+        width: 80vw;
+        height: 380px;
+    }
+
+    main> #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+        
+
+    main > form > .login {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+}
